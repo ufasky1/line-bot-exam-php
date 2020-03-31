@@ -29,9 +29,9 @@ $columns = array();
 			$outputText = new \LINE\LINEBot\MessageBuilder\TemplateMessageBuilder("Carousel Demo", $carousel);
 
 
-echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 
 
+$response = $bot->replyMessage($event->getReplyToken(), $outputText);
 
 
 
