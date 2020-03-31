@@ -31,7 +31,4 @@ $columns = array();
 
 
 
-$response = $bot->replyMessage($event->getReplyToken(), $outputText);
-
-
 
