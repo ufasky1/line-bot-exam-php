@@ -27,7 +27,8 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 			$outputText = new \LINE\LINEBot\MessageBuilder\TemplateMessageBuilder("Carousel Demo", $carousel);
 			
 
-$response = $bot->pushMessage($pushID, $textMessageBuilder);
+
+$response = $bot->pushMessage($pushID, $outputText);
 
 
 
