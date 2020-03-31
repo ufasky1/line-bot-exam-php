@@ -13,7 +13,7 @@ $pushID = 'Ube12b6d42e053b792179d99232e63439';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello world');
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('2222 world');
 
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
