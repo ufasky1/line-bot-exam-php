@@ -29,7 +29,6 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 			break;	
 			
 
-
 $response = $bot->pushMessage($pushID, $outputText);
 
 
