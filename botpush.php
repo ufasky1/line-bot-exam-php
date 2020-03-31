@@ -13,7 +13,6 @@ $pushID = 'Ube12b6d42e053b792179d99232e63439';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 
-			$carousel=
 			$columns = array();
 			$img_url = "https://cdn.shopify.com/s/files/1/0379/7669/products/sampleset2_1024x1024.JPG?v=1458740363";
 			for($i=0;$i<5;$i++) {
