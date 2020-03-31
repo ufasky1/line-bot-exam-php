@@ -24,7 +24,7 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 				$columns[] = $column;
 			}
 			$carousel = new \LINE\LINEBot\MessageBuilder\TemplateBuilder\CarouselTemplateBuilder($columns);
-			$outputText = new \LINE\LINEBot\MessageBuilder\TemplateMessageBuilder("Carousel Demo", $carousel);
+			$outputText = new \LINE\LINEBot\MessageBuilder\TemplateMessageBuilder("มีผู้กล่าวถึงคุณ", $carousel);
 			
 			
 
